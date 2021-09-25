@@ -13,6 +13,7 @@
 		DCC7649426FFD7C200CE21ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC7649226FFD7C200CE21ED /* Main.storyboard */; };
 		DCC7649626FFD7C300CE21ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC7649526FFD7C300CE21ED /* Assets.xcassets */; };
 		DCC7649926FFD7C300CE21ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC7649726FFD7C300CE21ED /* LaunchScreen.storyboard */; };
+		DCC764A126FFDC8A00CE21ED /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC764A026FFDC8A00CE21ED /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DCC7649526FFD7C300CE21ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCC7649826FFD7C300CE21ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCC7649A26FFD7C300CE21ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC764A026FFDC8A00CE21ED /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DCC7649526FFD7C300CE21ED /* Assets.xcassets */,
 				DCC7649726FFD7C300CE21ED /* LaunchScreen.storyboard */,
 				DCC7649A26FFD7C300CE21ED /* Info.plist */,
+				DCC764A026FFDC8A00CE21ED /* TableViewCell.swift */,
 			);
 			path = Fruits;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCC7649126FFD7C200CE21ED /* ViewController.swift in Sources */,
+				DCC764A126FFDC8A00CE21ED /* TableViewCell.swift in Sources */,
 				DCC7648D26FFD7C200CE21ED /* AppDelegate.swift in Sources */,
 				DCC7648F26FFD7C200CE21ED /* SceneDelegate.swift in Sources */,
 			);
@@ -287,8 +291,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Fruits/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -303,6 +308,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.northeastern.shang.Fruits;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,8 +320,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Fruits/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -330,6 +337,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.northeastern.shang.Fruits;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
